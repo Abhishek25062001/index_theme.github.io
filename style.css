@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#logoimg>img{
+    width: 50px;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+}
+
+#productpart{
+  height: auto;
+  padding-top: 72px;
+  
+}
+
+#client{
+    width: 100%;
+
+}
+#carouselpart{
+
+    padding-top: 50px;
+}
+#cartpart{
+  height: auto;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color: #d2d0d3;
+}
+#descriptionpart{
+  background-color: #212b36;
+  color: #d2d0d3;
+  padding-bottom: 110px;
+}
+.cart{
+    border: 3px solid grey;
+}
+#testimonialpart{
+  height: auto;
+  padding-top: 10px;
+  background-color: #212b36;
+  color: #d2d0d3;
+  padding-bottom: 10px;
+ 
+
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    padding-top: 88px;
+    background-color: #acbeca;
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+    .home-testimonial {
+      background-color: #231834;
+      height: 380px
+    }
+  
+    .home-testimonial-bottom {
+     
+      transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      position: relative;
+      height: 130px;
+      top: 190px
+    }
+  
+    .home-testimonial h3 {
+      color: var(--orange);
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase
+    }
+  
+    .home-testimonial h2 {
+      color: white;
+      font-size: 28px;
+      font-weight: 700
+    }
+  
+    .testimonial-inner {
+      position: relative;
+      top: -150px
+    }
+  
+    .testimonial-pos {
+      position: relative;
+      top: 24px
+    }
+  
+    .testimonial-inner .tour-desc {
+      border-radius: 5px;
+      padding: 40px
+    }
+  
+    .color-grey-3 {
+      font-family: "Montserrat", Sans-serif;
+      font-size: 14px;
+      color: #6c83a2
+    }
+  
+    .testimonial-inner img.tm-people {
+      width: 60px;
+      height: 60px;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      max-width: none
+    }
+  
+    .link-name {
+      font-family: "Montserrat", Sans-serif;
+      font-size: 14px;
+      color: #6c83a2
+    }
+  
+    .link-position {
+      font-family: "Montserrat", Sans-serif;
+      font-size: 12px;
+      color: #6c83a2
+    }
